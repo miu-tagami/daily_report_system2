@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+
+body{
+    color: #333333;
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: #333333;
+}
+
+#content{
+    width: 94%;
+    margin-top: 15px;
+    padding-left: 3%;
+}
+
+h1{
+    font-size: 24px;
+    display: inline;
+}
+
+h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10p;
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #24738e;
+}
+
+table,tr,th,td{
+    border: 1px solid #cccccc;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 20px;
+}
+
+th{
+    width: 26%;
+    padding: 10px 2%;
+}
+
+td{
+    width: 66%;
+    padding: 10px 2%;
+}
+
+button{
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+#footer{
+    text-align: center;
+}
+
+#flush_success{
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #155724;
+    background-color: #d4edda;
+}
+
+#flush_error{
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+table#employee_list th{
+    width: 30%;
+    padding: 10px 2%;
+}
+
+table#employee_list td{
+    width: 29%;
+    padding: 10px 2%;
+}
+
+tr.row1{
+    background-color: #f2f2f2;
+}
+
+tr.row0{
+    background-color: #ffffff;
+}
+
+select{
+    height: 30px;
+}
+
+#header_menu{
+    width: 57%;
+    padding-top: 17px;
+    padding-left: 3%;
+    display: inline-block;
+}
+
+#employee_name{
+    color: #cccccc;
+    width: 36%;
+    padding-right: 3%;
+    text-align: right;
+    display: inline-block;
+}
+
+#header a{
+    color: #eeeeee;
+}
+
+h1 a{
+    color: #eeeeee;
+}
+
+table#report_list th{
+    font-weight: bold;
+    padding: 10px 2%;
+}
+
+table#report_list td{
+    height: 60px;
+}
+
+table#report_list .report_name{
+    width: 18%;
+    padding: 10px 2%;
+}
+
+table#report_list .report_date{
+    width: 12%;
+}
+
+table#report_list .report_title{
+    width: 36%;
+}
+
+table#report_list .report_action{
+    width: 12%;
+}
+
+table#report_list .report_reaction{
+    width: 12%;
+}
+
+
+pre{
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
+
+h3{
+    font-size: larger;
+}
+
+.like_button{
+    display: inline-block;
+    border-style: solid;
+    background-color: whitesmoke;
+    border-width:1px;
+    border-color: darkgray;
+    color: black;
+    padding: 5px 10px;
+}
+
+.like_button:hover{
+    background-color: gainsboro;
+}
